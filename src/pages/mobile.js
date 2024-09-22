@@ -9,7 +9,7 @@ function Mobile() {
       </p>
       <p></p>
       <p>
-        Fun fact: This is what people use for those NFC Tags videos. You can check the code to see how the URI works.
+        Fun fact: This is what people use for those NFC Tags videos. You can check the code to see how it works.
       </p>
       <a href="genshin://">Open Genshin - Global</a>
       <p></p>
