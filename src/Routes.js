@@ -4,6 +4,7 @@ import Home from './pages/home';
 import BBS from './pages/miyoushe';
 import HoYoLAB from './pages/hoyolab';
 import Mobile from './pages/mobile'
+// Testing
 
 function AppRoutes() {
   return (

@@ -5,7 +5,7 @@ function Mobile() {
     <div className="Mobile">
       <h1>URI Scheme Testing</h1>
       <p>
-        Mobile only and may only work only on iOS, haven't fully tested on Android. If you want to check for PC URI, see <a href="https://studiobutter.github.io/anime_api/HoYoPlay/URI.html"> anime_api HoYoPlay URI Schemes Protocalls</a>
+        Mobile only and may only work only on iOS, haven't fully tested on Android. If you want to check for PC URI, see <a href="https://studiobutter.github.io/anime_api/HoYoPlay/URI.html"> anime_api HoYoPlay URI Schemes Protocalls.</a>
       </p>
       <a href="genshin://">Genshin - Global</a>
       <p></p>
