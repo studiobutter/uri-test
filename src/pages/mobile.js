@@ -7,6 +7,10 @@ function Mobile() {
       <p>
         Mobile only and may only work only on iOS, haven't fully tested on Android. If you want to check for PC URI, see <a href="https://studiobutter.github.io/anime_api/HoYoPlay/URI.html"> anime_api HoYoPlay URI Schemes Protocalls.</a>
       </p>
+      <p></p>
+      <p>
+        Fun fact: This is what people use for those NFC Tags videos
+      </p>
       <a href="genshin://">Open Genshin - Global</a>
       <p></p>
       <a href="yuanshen://">Open Genshin - CN</a>
