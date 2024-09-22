@@ -25,6 +25,18 @@ function Mobile() {
       <p></p>
       <a href="zenless://">Open Zenless - CN</a>
       <p></p>
+      <a href="bh3global://">Open HI3rd - Global</a>
+      <p></p>
+      <a href="bh3oversea://">Open HI3rd - SEA</a>
+      <p></p>
+      <a href="bh3game://">Open HI3rd - CN</a>
+      <p></p>
+      <a href="bh3tw://">Open HI3rd - TW</a>
+      <p></p>
+      <a href="bh3kr://">Open HI3rd - KR</a>
+      <p></p>
+      <a href="bh3jp://">Open HI3rd - JP</a>
+      <p></p>
     </div>
   );
 }
