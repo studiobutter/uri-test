@@ -20,7 +20,7 @@ function Mobile() {
       <a href="yuanshengame://">Open Genshin (Either region)</a>
       <p></p>
       <h3>Open Genshin - Cloud</h3>
-      <a href="cloudys://">CN - 1</a>
+      <a href="cloudys://">CN - 1</a> 
       <p></p>
       <a href="yscloud://">CN - 2</a>
       <p></p>

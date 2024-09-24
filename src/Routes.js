@@ -4,7 +4,6 @@ import Home from './pages/home';
 import BBS from './pages/miyoushe';
 import HoYoLAB from './pages/hoyolab';
 import Mobile from './pages/mobile'
-import Intent from './pages/testing/intent'
 // Testing
 
 function AppRoutes() {
@@ -15,8 +14,6 @@ function AppRoutes() {
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/hoyolab" element={<HoYoLAB />} />
         <Route path="/bbs" element={<BBS />} />
-        
-        <Route path="/test/intent" element={<Intent />} />
       </Routes>
     </Router>
   );
