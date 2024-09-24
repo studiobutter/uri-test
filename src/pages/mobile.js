@@ -36,10 +36,7 @@ function Mobile() {
       <p></p>
       <a href="honkaistarrailvn://">Open Star Rail - Vietnam</a>
       <p></p>
-      <h3>Open Star Rail - Cloud</h3>
-      <a href="cloudrpg://">CN - 1</a>
-      <p></p>
-      <a href="srcloud://">CN - 2</a>
+      <a href="srcloud://">Open Star Rail - CN - Cloud</a>
       <p></p>
       <h2>Zenless Zone Zero</h2>
       <a href="zenlessglobal://">Open Zenless - Global</a>
