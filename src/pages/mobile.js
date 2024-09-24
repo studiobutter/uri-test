@@ -59,11 +59,13 @@ function Mobile() {
       <p></p>
       <a href="bh3game://">Open HI3rd - CN</a>
       <p></p>
-      <a href="bh3tw://">Open HI3rd - TW</a>
+      <a href="bh3korea://">Open HI3rd - KR</a>
       <p></p>
-      <a href="bh3kr://">Open HI3rd - KR</a>
+      <a href="bh3asia://">Open HI3rd - TW</a>
+      <h3>Open HI3rd - JP</h3>
+      <a href="bh3jp://">Protocall - 1</a>
       <p></p>
-      <a href="bh3jp://">Open HI3rd - JP</a>
+      <a href="bh3rdjp://">Protocall - 2</a>
       <p></p>
       <h3>Open HI3rd - Vietnam</h3>
       <a href="bh3overseavn://">Protocall - 1</a>
