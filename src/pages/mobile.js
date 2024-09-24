@@ -20,13 +20,9 @@ function Mobile() {
       <a href="yuanshengame://">Open Genshin (Either region)</a>
       <p></p>
       <h3>Open Genshin - Cloud</h3>
-      <a href="cloudys://">CN - 1</a> 
+      <a href="yscloud://">China</a>
       <p></p>
-      <a href="yscloud://">CN - 2</a>
-      <p></p>
-      <a href="cloudysglobal://">Global - 1</a>
-      <p></p>
-      <a href="cloudgenshin://">Global - 2</a>
+      <a href="cloudgenshin://">Global</a>
       <p></p>
       <h3>Open Genshin - Vietnam</h3>
       <a href="genshinvn://">Protocall - 1</a>
@@ -61,7 +57,7 @@ function Mobile() {
       <p></p>
       <a href="bh3korea://">Open HI3rd - KR</a>
       <p></p>
-      <a href="bh3asia://">Open HI3rd - TW</a>
+      <a href="bh3asia://">Open HI3rd - TW/HK/MO</a>
       <h3>Open HI3rd - JP</h3>
       <a href="bh3jp://">Protocall - 1</a>
       <p></p>
