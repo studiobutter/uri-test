@@ -13,11 +13,11 @@ function Mobile() {
       </p>
       <p></p>
       <h2>Genshin Impact</h2>
-      <a href="genshin://">Open Genshin - Global</a>
+      <a href="genshin://">Open Genshin - Global/Global - Galaxy</a>
       <p></p>
-      <a href="yuanshen://">Open Genshin - CN</a>
+      <a href="yuanshen://">Open Genshin - CN/BiliBili</a>
       <p></p>
-      <a href="yuanshengame://">Open Genshin (Either region)</a>
+      <a href="yuanshengame://">Open Genshin (Any region)</a>
       <p></p>
       <h3>Open Genshin - Cloud</h3>
       <a href="yscloud://">China</a>
@@ -30,9 +30,9 @@ function Mobile() {
       <a href="yuanshengamevn://">Protocall - 2</a>
       <p></p>
       <h2>Honkai: Star Rail</h2>
-      <a href="honkaistarrail://">Open Star Rail - Global</a>
+      <a href="honkaistarrail://">Open Star Rail - Global/Global - Galaxy</a>
       <p></p>
-      <a href="starrailmihoyo://">Open Star Rail - CN</a>
+      <a href="starrailmihoyo://">Open Star Rail - CN/BiliBili</a>
       <p></p>
       <a href="honkaistarrailvn://">Open Star Rail - Vietnam</a>
       <p></p>
@@ -41,7 +41,7 @@ function Mobile() {
       <h2>Zenless Zone Zero</h2>
       <a href="zenlessglobal://">Open Zenless - Global</a>
       <p></p>
-      <a href="zenless://">Open Zenless - CN</a>
+      <a href="zenless://">Open Zenless - CN/BiliBili</a>
       <p></p>
       <a href="zenlessvn://">Open Zenless - Vietnam</a>
       <p></p>
@@ -50,7 +50,7 @@ function Mobile() {
       <p></p>
       <a href="bh3oversea://">Open HI3rd - SEA</a>
       <p></p>
-      <a href="bh3game://">Open HI3rd - CN</a>
+      <a href="bh3game://">Open HI3rd - CN/BiliBili</a>
       <p></p>
       <a href="bh3korea://">Open HI3rd - KR</a>
       <p></p>
