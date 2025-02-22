@@ -41,7 +41,7 @@ const Home = () => {
       ) : (
         <p>Currently in a desktop browser</p>
       )}
-      <p>Test Link: </p>
+      <p>Test Link: <a href={currentUrl} target="_blank" rel="noopener noreferrer">Link</a></p>
       <button onClick={() => handleClick('https://example.com')}>
         Open in System Browser
       </button>
