@@ -1,16 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import InAppBrowserRedirect from '../components/useInAppBrowser';
 
 const Home = () => {
 
+function Home() {
   return (
     <div className="App">
+      <InAppBrowserRedirect />
       <h1>URI Scheme Testing</h1>
       <Link to="/mobile">Open Apps Testing</Link>
       <p></p>
       <Link to="/hoyolab">HoYoLAB</Link>
       <p></p>
       <Link to="/bbs">BBS</Link>
+      <p></p>
+      <Link to="/agent">Display User Agent</Link>
       <p></p>
       <Link to="/agent">Display User Agent</Link>
       <p></p>

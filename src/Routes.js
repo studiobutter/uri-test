@@ -7,7 +7,6 @@ import Mobile from './pages/mobile'
 import HoYo from './pages/redirects/hoyo';
 import Agent from './pages/agent';
 
-
 // Testing
 
 function AppRoutes() {
