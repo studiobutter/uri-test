@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-import InAppBrowserRedirect from '../components/InAppBrowserRedirect';
 const Home = () => {
 
   return (
     <div className="App">
-      <InAppBrowserRedirect />
       <h1>URI Scheme Testing</h1>
       <Link to="/mobile">Open Apps Testing</Link>
       <p></p>
