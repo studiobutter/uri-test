@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+
+function Home() {
   return (
     <div className="App">
       <InAppBrowserRedirect />
@@ -22,6 +24,6 @@ const Home = () => {
       </p>
     </div>
   );
-}
+}}
 
 export default Home;
