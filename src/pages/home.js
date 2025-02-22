@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { isMobile } from 'react-device-detect';
@@ -7,6 +7,12 @@ import useInAppBrowser from '../hooks/useInAppBrowser';
 const Home = () => {
   const currentUrl = window.location.href;
   const isInAppBrowser = useInAppBrowser(currentUrl);
+
+  useEffect(() => {
+    if (isInAppBrowser) {
+      window.open(currentUrl, '_system');
+    }
+  }, [isInAppBrowser, currentUrl]);
 
   return (
     <div className="App">
