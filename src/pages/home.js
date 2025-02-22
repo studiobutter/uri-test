@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import InAppBrowserRedirect from '../components/useInAppBrowser';
 
 const Home = () => {
-
-function Home() {
   return (
     <div className="App">
       <InAppBrowserRedirect />
