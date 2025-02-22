@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { isMobile } from 'react-device-detect';
-import { useInAppBrowser } from '../hooks/useInAppBrowser';
+import useInAppBrowser from '../hooks/useInAppBrowser';
 
 const Home = () => {
   const currentUrl = window.location.href;
