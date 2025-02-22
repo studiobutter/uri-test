@@ -37,6 +37,7 @@ const Home = () => {
       ) : (
         <p>Currently in a desktop browser</p>
       )}
+      <p>Test Link: <a href='com-apple-mobilesafari-tab:https://studiobutter.github.io/uri-test/'>iOS</a></p>
     </div>
   );
 }
