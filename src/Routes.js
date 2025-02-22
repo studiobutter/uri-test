@@ -5,6 +5,7 @@ import BBS from './pages/miyoushe';
 import HoYoLAB from './pages/hoyolab';
 import Mobile from './pages/mobile'
 import HoYo from './pages/redirects/hoyo';
+import Agent from './pages/agent';
 
 // Testing
 
@@ -17,6 +18,7 @@ function AppRoutes() {
         <Route path="/hoyolab" element={<HoYoLAB />} />
         <Route path="/bbs" element={<BBS />} />
         <Route path="/redirects/hoyo" element={<HoYo />} />
+        <Route path="/agent" element={<Agent />} />
       </Routes>
     </Router>
   );

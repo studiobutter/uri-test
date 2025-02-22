@@ -11,6 +11,8 @@ function Home() {
       <p></p>
       <Link to="/bbs">BBS</Link>
       <p></p>
+      <Link to="/agent">Display User Agent</Link>
+      <p></p>
       <p>
         For more Protocols and APIs, check out <a href='https://studiobutter.github.io/anime_api'>anime_api</a>
       </p>
