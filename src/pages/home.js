@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import InAppBrowserRedirect from '../components/useInAppBrowser';
 
 const Home = () => {
 
+function Home() {
   return (
     <div className="App">
       <InAppBrowserRedirect />
@@ -16,11 +16,14 @@ const Home = () => {
       <p></p>
       <Link to="/agent">Display User Agent</Link>
       <p></p>
+      <Link to="/agent">Display User Agent</Link>
+      <p></p>
+      <Link to="/redirect">Redirect</Link>
       <p>
         For more Protocols and APIs, check out <a href='https://studiobutter.github.io/anime_api'>anime_api</a>
       </p>
     </div>
   );
-}
+}}
 
 export default Home;
