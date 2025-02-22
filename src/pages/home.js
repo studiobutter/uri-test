@@ -1,7 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Home() {
+import { isMobile } from 'react-device-detect';
+import { useInAppBrowser } from '../hooks/useInAppBrowser';
+
+const Home = () => {
+  const currentUrl = window.location.href;
+  const isInAppBrowser = useInAppBrowser(currentUrl);
+
   return (
     <div className="App">
       <h1>URI Scheme Testing</h1>
@@ -16,6 +22,15 @@ function Home() {
       <p>
         For more Protocols and APIs, check out <a href='https://studiobutter.github.io/anime_api'>anime_api</a>
       </p>
+      {isMobile ? (
+        isInAppBrowser ? (
+          <p>Currently in an in-app browser</p>
+        ) : (
+          <p>Currently in a system browser</p>
+        )
+      ) : (
+        <p>Currently in a desktop browser</p>
+      )}
     </div>
   );
 }
