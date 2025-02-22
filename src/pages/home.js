@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import { isMobile } from 'react-device-detect';
+import { isMobile, isIOS } from 'react-device-detect';
 import useInAppBrowser from '../hooks/useInAppBrowser';
 
 const Home = () => {
@@ -9,8 +9,8 @@ const Home = () => {
   const isInAppBrowser = useInAppBrowser(currentUrl);
 
   useEffect(() => {
-    if (isInAppBrowser) {
-      window.open(currentUrl, '_system');
+    if (isInAppBrowser && isIOS) {
+      window.location.href = 'com-apple-mobilesafari-tab:' + currentUrl;
     }
   }, [isInAppBrowser, currentUrl]);
 
