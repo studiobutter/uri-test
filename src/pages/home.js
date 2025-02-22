@@ -6,7 +6,6 @@ const Home = () => {
 function Home() {
   return (
     <div className="App">
-      <InAppBrowserRedirect />
       <h1>URI Scheme Testing</h1>
       <Link to="/mobile">Open Apps Testing</Link>
       <p></p>
