@@ -15,7 +15,7 @@ function Mobile() {
       <p></p>
       <a href='x-safari-https://example.com'>iOS/iPadOS</a>
       <p></p>
-      <a href='intent://example.com#Intent;scheme=https;end'>Android</a>
+      <a href="example.com" onclick="window.open(this.href, '_blank')">Android</a>
       <p></p>
       <h2>Genshin Impact</h2>
       <a href="genshin://">Open Genshin - Global/Global - Galaxy</a>
