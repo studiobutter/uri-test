@@ -17,8 +17,6 @@ function Home() {
       <Link to="/agent">Display User Agent</Link>
       <p></p>
       <Link to="/agent">Display User Agent</Link>
-      <p></p>
-      <Link to="/redirect">Redirect</Link>
       <p>
         For more Protocols and APIs, check out <a href='https://studiobutter.github.io/anime_api'>anime_api</a>
       </p>
