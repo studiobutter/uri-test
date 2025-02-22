@@ -1,25 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-
-import { isMobile, isIOS } from 'react-device-detect';
-import useInAppBrowser from '../hooks/useInAppBrowser';
+import InAppBrowserRedirect from '../components/useInAppBrowser';
 
 const Home = () => {
-  const currentUrl = window.location.href;
-  const isInAppBrowser = useInAppBrowser(currentUrl);
-
-  const handleClick = (url) => {
-    window.open(url, '_blank');
-};
-
-  useEffect(() => {
-    if (isInAppBrowser && isIOS) {
-      window.location.href = 'com-apple-mobilesafari-tab:' + currentUrl;
-    }
-  }, [isInAppBrowser, currentUrl]);
 
   return (
     <div className="App">
+      <InAppBrowserRedirect />
       <h1>URI Scheme Testing</h1>
       <Link to="/mobile">Open Apps Testing</Link>
       <p></p>
@@ -32,19 +19,6 @@ const Home = () => {
       <p>
         For more Protocols and APIs, check out <a href='https://studiobutter.github.io/anime_api'>anime_api</a>
       </p>
-      {isMobile ? (
-        isInAppBrowser ? (
-          <p>Currently in an in-app browser</p>
-        ) : (
-          <p>Currently in a system browser</p>
-        )
-      ) : (
-        <p>Currently in a desktop browser</p>
-      )}
-      <p>Test Link: <a href={currentUrl} target="_blank" rel="noopener noreferrer">Link</a></p>
-      <button onClick={() => handleClick('https://example.com')}>
-        Open in System Browser
-      </button>
     </div>
   );
 }
