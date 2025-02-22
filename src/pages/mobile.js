@@ -11,6 +11,11 @@ function Mobile() {
       <p>
         Fun fact: This is what people use for those NFC Tags videos. You can check the code to see how it works.
       </p>
+      <p>Test links</p>
+      <p></p>
+      <a href='x-safari-https://example.com'>iOS/iPadOS</a>
+      <p></p>
+      <a href='intent://example.com#Intent;scheme=https;end'>Android</a>
       <p></p>
       <h2>Genshin Impact</h2>
       <a href="genshin://">Open Genshin - Global/Global - Galaxy</a>
