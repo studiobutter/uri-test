@@ -8,6 +8,10 @@ const Home = () => {
   const currentUrl = window.location.href;
   const isInAppBrowser = useInAppBrowser(currentUrl);
 
+  const handleClick = (url) => {
+    window.open(url, '_blank');
+};
+
   useEffect(() => {
     if (isInAppBrowser && isIOS) {
       window.location.href = 'com-apple-mobilesafari-tab:' + currentUrl;
@@ -37,7 +41,10 @@ const Home = () => {
       ) : (
         <p>Currently in a desktop browser</p>
       )}
-      <p>Test Link: <a href='com-apple-mobilesafari-tab:https://studiobutter.github.io/uri-test/'>iOS</a></p>
+      <p>Test Link: </p>
+      <button onClick={() => handleClick('https://example.com')}>
+        Open in System Browser
+      </button>
     </div>
   );
 }
