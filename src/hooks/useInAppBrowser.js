@@ -21,6 +21,7 @@ const useInAppBrowser = (url = null) => {
       /Snapchat/i, // Snapchat
       /TikTok/i, // TikTok
       /Line/i, // Line app
+      /miHoYoBBSOversea\/[0-9.]+/i, // HoYoLAB
     ];
 
     const isInApp = inAppBrowserPatterns.some((pattern) =>
