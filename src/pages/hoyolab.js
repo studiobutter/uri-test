@@ -28,9 +28,6 @@ function HoYoLAB() {
         </div>
       )}
       <p></p>
-        <a href='hoyolab://openURL?url=https://studiobutter.github.io/uri-test/'>
-          Test Link
-        </a>
     </div>
   );
 }
