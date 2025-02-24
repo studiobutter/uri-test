@@ -1,5 +1,7 @@
 import React from 'react';
 
+import AndroidSystemBrowserLink from '../component/AndroidExternalLink';
+
 const testUrl = 'https://example.com';
 
 function Mobile() {
@@ -28,6 +30,11 @@ function Mobile() {
       <a href="external:https://example.com" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - 5</a>
       <p></p>
       <a href="intent://example.com#Intent;scheme=https;package=com.android.chrome;end;" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - Intent 1</a>
+      <p>
+        <AndroidSystemBrowserLink href={testUrl} className="AndroidSystemBrowserLink">
+          Android - Intent 2
+        </AndroidSystemBrowserLink>
+      </p>
       <p></p>
       <h2>Genshin Impact</h2>
       <a href="genshin://">Open Genshin - Global/Global - Galaxy</a>
