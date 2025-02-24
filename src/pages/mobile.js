@@ -20,6 +20,7 @@ function Mobile() {
       <a href="https://example.com" onclick="window.open(this.href, '_system')">Android - 2</a>
       <p></p>
       <a href="https://example.com" onclick="window.open('https://example.com', '_system'); return false;">Android - 3</a>
+      <p></p>
       <a href="external:https://example.com" onclick="window.open('external:https://example.com', '_system'); return false;">Android - 4</a>
       <p></p>
       <a href="external:https://example.com" onclick="window.open(this.href, '_system')">Android - 5</a>
