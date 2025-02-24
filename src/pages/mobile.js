@@ -29,8 +29,6 @@ function Mobile() {
       <p></p>
       <a href="intent://example.com#Intent;scheme=https;package=com.android.chrome;end;" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - Intent 1</a>
       <p></p>
-      <a href="intent://example.com#Intent;scheme=https;package=com.android.browser;end;" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - Intent 2</a>
-      <p></p>
       <h2>Genshin Impact</h2>
       <a href="genshin://">Open Genshin - Global/Global - Galaxy</a>
       <p></p>
