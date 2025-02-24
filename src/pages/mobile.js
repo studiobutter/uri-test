@@ -17,19 +17,19 @@ function Mobile() {
       <p></p>
       <a href='x-safari-https://example.com'>iOS/iPadOS</a>
       <p></p>
-      <a href="https://example.com" onclick="window.open(this.href, '_blank')">Android - 1</a>
+      <a href="https://example.com" onclick="window.open(this.href, '_blank')" rel="noopener noreferrer">Android - 1</a>
       <p></p>
-      <a href="https://example.com" onclick="window.open(this.href, '_system')">Android - 2</a>
+      <a href="https://example.com" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - 2</a>
       <p></p>
-      <a href="https://example.com" onclick="window.open('https://example.com', '_system'); return false;">Android - 3</a>
+      <a href="https://example.com" onclick="window.open('https://example.com', '_system'); return false;" rel="noopener noreferrer">Android - 3</a>
       <p></p>
-      <a href="external:https://example.com" onclick="window.open('external:https://example.com', '_system'); return false;">Android - 4</a>
+      <a href="external:https://example.com" onclick="window.open('external:https://example.com', '_system'); return false;" rel="noopener noreferrer">Android - 4</a>
       <p></p>
-      <a href="external:https://example.com" onclick="window.open(this.href, '_system')">Android - 5</a>
+      <a href="external:https://example.com" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - 5</a>
       <p></p>
-      <a href="intent://example.com#Intent;scheme=https;package=com.android.chrome;end;" onclick="window.open(this.href, '_system')">Android - Intent 1</a>
+      <a href="intent://example.com#Intent;scheme=https;package=com.android.chrome;end;" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - Intent 1</a>
       <p></p>
-      <a href="intent://example.com#Intent;scheme=https;package=com.android.browser;end;" onclick="window.open(this.href, '_system')">Android - Intent 2</a>
+      <a href="intent://example.com#Intent;scheme=https;package=com.android.browser;end;" onclick="window.open(this.href, '_system')" rel="noopener noreferrer">Android - Intent 2</a>
       <p></p>
       <h2>Genshin Impact</h2>
       <a href="genshin://">Open Genshin - Global/Global - Galaxy</a>
