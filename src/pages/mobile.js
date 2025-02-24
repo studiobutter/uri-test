@@ -1,5 +1,7 @@
 import React from 'react';
 
+const testUrl = 'https://example.com';
+
 function Mobile() {
   return (
     <div className="Mobile">
@@ -24,6 +26,9 @@ function Mobile() {
       <a href="external:https://example.com" onclick="window.open('external:https://example.com', '_system'); return false;">Android - 4</a>
       <p></p>
       <a href="external:https://example.com" onclick="window.open(this.href, '_system')">Android - 5</a>
+      <p></p>
+      <a href="intent://example.com#Intent;scheme=https;package=com.android.chrome;end;" onclick="window.open(this.href, '_system')">Android - Intent 1</a>
+      <a href="intent://example.com#Intent;scheme=https;package=com.android.browser;end;" onclick="window.open(this.href, '_system')">Android - Intent 2</a>
       <p></p>
       <h2>Genshin Impact</h2>
       <a href="genshin://">Open Genshin - Global/Global - Galaxy</a>
