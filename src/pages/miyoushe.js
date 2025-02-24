@@ -27,6 +27,10 @@ function BBS() {
           </a>
         </div>
       )}
+      <a href="mihoyobbs://openURL?url=https://studiobutter.github.io/uri-test/">
+         Test Link
+      </a>
+      <p></p>
     </div>
   );
 }
