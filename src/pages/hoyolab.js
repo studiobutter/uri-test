@@ -32,6 +32,10 @@ function HoYoLAB() {
          Test Link
       </a>
       <p></p>
+      <a href="hoyolab://openURL?url=https://studiobutter.github.io/event-redirects/event/genshin?isOpenSystemBrowser=true">
+         Redirect Link to Genshin
+      </a>
+      <p></p>
     </div>
   );
 }
