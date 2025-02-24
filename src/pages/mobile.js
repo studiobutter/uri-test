@@ -3,6 +3,8 @@ import React from 'react';
 import AndroidSystemBrowserLink from '../component/AndroidExternalLink';
 
 const testUrl = 'https://example.com';
+const testSystemUrl = 'https://example.com?isOpenSystemBrowser=true';
+const testGUrl = 'https://hoyo.link/fNMkFFAL?isOpenSystemBrowser=true';
 
 function Mobile() {
   return (
@@ -33,6 +35,12 @@ function Mobile() {
       <p>
         <AndroidSystemBrowserLink href={testUrl} className="AndroidSystemBrowserLink">
           Android - Intent 2
+        </AndroidSystemBrowserLink>
+        <AndroidSystemBrowserLink href={testSystemUrl} className="AndroidSystemBrowserLink">
+          Android - Intent 3
+        </AndroidSystemBrowserLink>
+        <AndroidSystemBrowserLink href={testGUrl} className="AndroidSystemBrowserLink">
+          Android - Intent (HoYo Link)
         </AndroidSystemBrowserLink>
       </p>
       <p></p>
