@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AndroidSystemBrowserLink from '../component/AndroidExternalLink';
 
 const testUrl = 'https://example.com';
@@ -57,9 +55,9 @@ function Mobile() {
       <a href="cloudgenshin://">Global</a>
       <p></p>
       <h3>Open Genshin - Vietnam</h3>
-      <a href="genshinvn://">Protocall - 1</a>
+      <a href="genshinvn://">Protocol - 1</a>
       <p></p>
-      <a href="yuanshengamevn://">Protocall - 2</a>
+      <a href="yuanshengamevn://">Protocol - 2</a>
       <p></p>
       <h2>Honkai: Star Rail</h2>
       <a href="honkaistarrail://">Open Star Rail - Global/Global - Galaxy</a>
@@ -88,14 +86,14 @@ function Mobile() {
       <p></p>
       <a href="bh3asia://">Open HI3rd - TW/HK/MO</a>
       <h3>Open HI3rd - JP</h3>
-      <a href="bh3jp://">Protocall - 1</a>
+      <a href="bh3jp://">Protocol - 1</a>
       <p></p>
-      <a href="bh3rdjp://">Protocall - 2</a>
+      <a href="bh3rdjp://">Protocol - 2</a>
       <p></p>
       <h3>Open HI3rd - Vietnam</h3>
-      <a href="bh3overseavn://">Protocall - 1</a>
+      <a href="bh3overseavn://">Protocol - 1</a>
       <p></p>
-      <a href="bh3vn://">Protocall - 2</a>
+      <a href="bh3vn://">Protocol - 2</a>
       <p></p>
     </div>
   );
