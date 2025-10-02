@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 // /home/op/Public/Deployment/uri-test/src/pages/stuff.js
 

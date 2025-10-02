@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AndroidSystemBrowserLink = ({ href, children, className }) => {
   const handleClick = (e) => {
     e.preventDefault();
