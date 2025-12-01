@@ -1,6 +1,6 @@
 function Status() {
   return (
-    <div className="App">
+    <div>
       <p>200</p>
     </div>
   );
