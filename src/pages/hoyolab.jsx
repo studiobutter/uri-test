@@ -14,7 +14,7 @@ function HoYoLAB() {
             Teyvat Interactive Map
           </a>
           <p></p>
-          <a href="hoyolab://close-webview">
+          <a href="hoyolab://close_webview">
             Close WebView
           </a>
         </div>
