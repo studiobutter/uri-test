@@ -14,8 +14,8 @@ function HoYoLAB() {
             Teyvat Interactive Map
           </a>
           <p></p>
-          <a href="hoyolab://openURL?url=https%3A%2F%2Fact.hoyolab.com%2Fys%2Fugc_community%2Fmx%2F%23%2Fpages%2Flevel-detail%2Findex%3Fid%3D24895436376%26region%3Dos_asia%26hyl_hide_status_bar%3Dtrue%26hyl_presentation_style%3Dfullscreen">
-            Miliastra Wonderland Page Test
+          <a href="#" onClick={(e) => { e.preventDefault(); window.BBS.close(); }}>
+            Close WebView
           </a>
         </div>
       ) : (
