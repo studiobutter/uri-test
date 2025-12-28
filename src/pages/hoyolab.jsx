@@ -13,6 +13,10 @@ function HoYoLAB() {
           <a href="hoyolab://openURL?url=https%3A%2F%2Fact.hoyolab.com%2Fys%2Fapp%2Finteractive-map%2Findex.html">
             Teyvat Interactive Map
           </a>
+          <p></p>
+          <a href="hoyolab://close-webview">
+            Close WebView
+          </a>
         </div>
       ) : (
         <div>
