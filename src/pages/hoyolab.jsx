@@ -15,7 +15,11 @@ function HoYoLAB() {
           </a>
           <p></p>
           <a href="#" onClick={(e) => { e.preventDefault(); window.hoyolab.closePage(); }}>
-            Close WebView
+            Close WebView (JS1)
+          </a>
+          <p></p>
+          <a href="hoyolab://close">
+            Close WebView (URI)
           </a>
         </div>
       ) : (
