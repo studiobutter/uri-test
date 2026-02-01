@@ -7,6 +7,7 @@ import HoYo from './pages/redirects/hoyo';
 import Agent from './pages/agent';
 import StuffPage from './pages/stuff';
 import Status from './pages/status';
+import WebView from './pages/webview';
 
 // Testing
 
@@ -22,6 +23,7 @@ function AppRoutes() {
         <Route path="/status" element={<Status />} />
         <Route path="/agent" element={<Agent />} />
         <Route path="/stuff" element={<StuffPage />} />
+        <Route path="/webview" element={<WebView />} />
       </Routes>
     </Router>
   );

@@ -14,6 +14,9 @@ const Home = () => {
       <p></p>
       <Link to="/stuff">Experiment</Link>
       <p></p>
+      <p></p>
+      <Link to="/webview">WebView Capability Test</Link>
+      <p></p>
       <p>
         For more Protocols and APIs, check out <a href='https://studiobutter.github.io/anime_api'>anime_api</a>
       </p>
