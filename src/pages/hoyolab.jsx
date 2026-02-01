@@ -14,7 +14,7 @@ function HoYoLAB() {
             Teyvat Interactive Map
           </a>
           <p></p>
-          <a href="#" onClick={(e) => { e.preventDefault(); this.MiHoYoJSInterface.closePage(); }}>
+          <a href="#" onClick={(e) => { e.preventDefault(); webkit.messageHandlers.miHoYo.closePage(); }}>
             Close WebView (JS1)
           </a>
           <p></p>
