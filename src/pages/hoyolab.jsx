@@ -44,8 +44,8 @@ function HoYoLAB() {
       </a>
       <p></p>
       <p></p>
-      <a href="https://account.hoyoverse.com">
-         Account Center
+      <a href="javascript:self.dismiss(animated: true);">
+         Test Link
       </a>
       <p></p>
     </div>
